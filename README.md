@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aircon Quote App - 業務用エアコン取り付け見積もりアプリ
 
-## Getting Started
+このプロジェクトは、業務用エアコンの取り付け見積もりを簡単に行えるWebアプリケーションです。
 
-First, run the development server:
+## 概要
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+エアコンの仕様、設置環境、お客様情報、連絡希望方法などをステップ形式で入力することで、概算見積もり金額を算出し、見積もり依頼を送信できます。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 機能
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **ステップ形式の入力:** ユーザーは段階的に情報を入力できます。
+    1.  エアコン仕様（タイプ、冷房能力、部屋数）
+    2.  設置環境（建物タイプ、設置階数、設置条件、工事希望時期）
+    3.  お客様情報（会社名、担当者名、電話番号、メールアドレス、設置場所住所）
+    4.  連絡希望（希望連絡方法、希望日時、その他要望）
+-   **概算見積もり:** 入力された情報に基づいて、リアルタイムで概算見積もり金額を表示します。
+-   **見積もり依頼送信:** 入力された情報を元に、見積もり依頼を送信できます。
+-   **レスポンシブデザイン:** 様々なデバイスで利用しやすいように最適化されています。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使い方
 
-## Learn More
+1.  アプリを起動し、画面の指示に従ってステップごとに必要な情報を入力します。
+2.  各ステップで選択・入力した内容に基づいて、概算見積もり金額が更新されます。
+3.  最終ステップで「見積もり確認」または「見積もり依頼を送信」ボタンをクリックします。
 
-To learn more about Next.js, take a look at the following resources:
+## 技術スタック
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **フレームワーク:** Next.js
+-   **ライブラリ:** React
+-   **言語:** TypeScript
+-   **スタイリング:** Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ライブデモ
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+（このプロジェクトがGitHub Pagesで公開されている場合、ここにURLを記載します。現状では不明なためプレースホルダーとします。）
